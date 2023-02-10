@@ -1,0 +1,21 @@
+.form-chgpwd label{
+	margin-left: 40%
+}
+
+.form-chgpwd input, .form-chgpwd button{
+	text-align: center;
+	display: list-item;
+	margin: auto;
+	margin-bottom: 10px;
+	height: 30px;
+}
+
+.chgpwderror{
+	text-align: center;
+	color: red;
+}
+
+.chgpwdsuccess{
+	text-align: center;
+	color: green;
+}

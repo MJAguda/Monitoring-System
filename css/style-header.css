@@ -1,0 +1,151 @@
+#header{
+	padding: 25px;
+  	background-image: url(../images/header.png);
+  	background-size: 1520px 70px;
+  	background-repeat: repeat-x;
+  	color: white;
+  	font-size: 30px;
+  	width: 96.3%;
+}
+
+#header-nav{
+
+}
+
+#logo img{
+	float: left;
+	width: 55px;
+	height: auto;
+
+	position: relative;
+	bottom: 25px;
+	left: -15px;
+}
+
+#header-content{
+}
+
+#header-content-outer-left{
+	float: left;
+	height: 10px;
+}
+
+#header-content-outer-left ul{
+	position: relative;
+	bottom: 50px;
+	padding: 0px 0px 0px 0px;
+}
+
+#header-content-outer-left ul li{
+	display: inline-block;
+	border: 1px solid orange;
+	border-radius: 5px;
+	text-align: center;
+	width: 100px;
+	height: 25px;
+	background-color: yellow;
+	align-items: center;
+	vertical-align: bottom;
+	font-family: "Adobe Gothic Std B", "Lucida Sana", "Trebuchet MS";*/
+}
+
+#header-content-outer-left ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	vertical-align: top;
+}
+
+#header-content-outer-left li:hover{
+	background-color: orange;
+	border: 1px solid yellow;
+}
+
+#header-content-outer-left li a:hover{
+	color: yellow;
+}
+
+#header-content-inner-left{
+	float: left;
+	position: relative;
+	bottom: 20px;
+}
+
+#header-content-inner-left input[type=text], #header-content-inner-left input[type=password]{ /*Input box for username/email and password*/
+	float: left;
+	width: 39%;
+  	padding: 5px 5px;
+  	margin: 9px 5px;
+  	border: 1px solid orange;
+  	border-radius: 4px;
+  	box-sizing: border-box;
+  	/*position: relative;
+  	left: 101px;
+  	top: 2px;*/
+  	font-family: "Adobe Gothic Std B", "Lucida Sana", "Trebuchet MS";
+}
+
+#header-content-inner-left button[type=submit]{ /*Log In Button*/
+	width: 60px;
+  	background-color: yellow;
+  	color: black;
+  	border: 1px solid orange;
+  	padding: 5px;
+  	border-radius: 4px;
+  	cursor: pointer;
+}
+
+#header-content-inner-left button[type=submit]:hover{ /*Log In Button*/
+  	background-color: orange;
+  	color: yellow;
+  	border: 1px solid yellow;
+}
+
+#header-content-inner-left .dropdown-submit{
+	border: 1px solid yellow;
+	background-color: orange;
+	font-family: "Adobe Gothic Std B", "Lucida Sana", "Trebuchet MS";
+	padding: 4px;
+	border-radius: 4px;
+	margin-right: 10px;
+	/*position: relative;
+	left: 560px;
+	top: 1px;*/
+}
+
+#header-content-inner-left .dropdown-submit:hover{
+	background-color: yellow;
+	color: #FF6A0F;
+}
+
+#header-content-outer-right{
+	float: right;
+	height: 10px;
+}
+
+#header-content-inner-right{
+	float: right;
+
+}
+
+#header-content-inner-right{
+	float: right;
+	position: relative;
+	bottom: 20px;
+}
+
+#header-content-inner-right a button{ /*Sign Up Button*/
+	width: 60px;
+  	background-color: orange;
+  	color: black;
+  	border: 1px solid yellow;
+  	padding: 5px;
+  	border-radius: 4px;
+  	cursor: pointer;
+}
+
+#header-content-inner-right button:hover{
+	background-color: yellow;
+	color: #FF6A0F;
+}
+

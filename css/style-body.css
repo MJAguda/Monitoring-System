@@ -1,0 +1,28 @@
+body{
+	zoom: 100%; /*Adjust Zoom manually according to Resolution, Simply vary the value*/
+	background-color: #FF6A0F;
+	font-family: "Adobe Gothic Std B", "Lucida Sana", "Trebuchet MS";
+	font-size: small;
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper-main{
+		background: #FFFFFF;
+		width: 85%;
+		height: 570px;
+		margin: auto;
+		border: 1px solid #000;
+		padding: 0;
+}
+
+.section-default h1{
+	text-align: center;
+}
+
+#map{
+	float: right;
+	height: 568px;
+    width: 68% /*816px*/; 
+	border: 1px solid black;
+}

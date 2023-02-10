@@ -1,0 +1,36 @@
+.login-status{ /*Status regarding log*/
+	text-align: center;
+	font-family: "Adobe Gothic Std B", "Lucida Sana", "Trebuchet MS";
+	font-size: 30px;
+	color: green;
+}
+
+.logout-status{ /*Status regarding log*/
+	text-align: center;
+	font-family: "Adobe Gothic Std B", "Lucida Sana", "Trebuchet MS";
+	font-size: 30px;
+	color: red;
+}
+
+.form-signup input, .form-signup button{
+	text-align: center;
+	display: list-item;
+	margin: auto;
+	margin-bottom: 10px;
+	height: 30px;
+}
+
+.form-signup button:hover{
+	background-color: yellow;
+	color: #FF6A0F;
+}
+
+.signuperror{
+	text-align: center;
+	color: red;
+}
+
+.signupsuccess{
+	text-align: center;
+	color: green;
+}

@@ -1,0 +1,62 @@
+#left-nav{/*left navigation*/
+	background: #fafacf;
+	padding: 2px 3px 2px 3px;
+	width: 346px;
+	float: left;
+	border-right: 2px solid #e2e5b6;
+}
+
+	.resident, .lat, .long, .check{/*table header*/
+		border-right: 2px dashed #FF6A0F;
+		text-align: center;
+	}
+	.resident, .status, .lat, .long, .check{/*resident column*/
+		width: 30%;
+		text-align: center;
+	}
+	.resident-data, .status-data, .lat-data, .long-data, .check-data{/*resident column*/
+		text-align: center;
+	}
+	.remove-button{
+		text-align: center;
+		text-decoration: none;
+		color: black;
+		border-radius: 0px;
+		background-color: orange;
+		cursor: pointer;
+	}
+	.alter-status{
+		text-align: center;
+		text-decoration: none;
+		color: black;
+		border-radius: 0px;
+		background-color: red;
+	}
+	.status-data button:hover{
+		color: yellow;
+	}
+		#desc{
+			overflow-y: scroll;
+			height: 539px;
+		}
+		#desc table{
+			table-layout: auto;
+			width: 100%;
+		}
+	#left-nav-footer{
+		background: #FFFFFF;
+		border: 1px solid #FFFFFF;
+	}
+		#left-nav-footer a{
+			display: inline-block;
+		}
+		#left-nav-footer a button{
+			font-family: "Adobe Gothic Std B", "Lucida Sana", "Trebuchet MS";
+			font-size: 16px;
+			width: 345px;
+			cursor: pointer;
+		}	
+		#left-nav-footer a button:hover{
+			background-color: yellow;
+			color: #FF6A0F;
+		}	
